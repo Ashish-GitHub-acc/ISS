@@ -1,0 +1,20 @@
+html
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(href="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css" rel="stylesheet" type="text/css")
+        link(href="style.css" rel="stylesheet" type="text/css")
+        script(src="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.js" defer type="text/javascript")
+        script(src="src.js" type="text/javascript" defer)
+        title ISS Tracker
+    body
+        center
+            header ISS Location
+            hr
+        div#block
+            div#map
+                div#marker
+            div#info
+            div#container 
+                h1 Astronauts currently on International Space Station     
+                div#astro
