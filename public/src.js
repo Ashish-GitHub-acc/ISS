@@ -13,7 +13,7 @@ async function getToken() {
     center: [94, 19],
     pitch: 15,
     style: "mapbox://styles/mapbox/streets-v11",
-    zoom: 7,
+    zoom: 6,
     minZoom: 2,
   });
   map.addControl(new mapboxgl.NavigationControl());
